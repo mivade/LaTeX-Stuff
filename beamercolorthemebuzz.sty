@@ -1,37 +1,36 @@
-% Copyright 2010 by Marcos Caballero <caballero@gatech.edu>
+% Copyright June 2013 by Michael V. DePalatis
 %
-% Modified 3 June 2013 by Michael V. DePalatis to use official GT
-% colors according to the Licensing and Trademarks Department.
+% Modified from the original beamercolorthemebuzz.sty by Danny
+% Caballero in order to use official GT colors according to the
+% Licensing and Trademarks Department and work with more themes.
 %
 % This file may be distributed and/or modified
 %
 % 1. under the LaTeX Project Public License and/or
 % 2. under the GNU Public License.
-%
-% See the file doc/licenses/LICENSE for more details.
-
-\ProvidesPackageRCS
 
 \mode<presentation>
 
-\definecolor{gtgold}{html}{b09465}
-\definecolor{gtnavy}{html}{00223e}
-\definecolor{gtwhite}{html}{ffffff}
+\definecolor{gtgold}{HTML}{b09465}
+\definecolor{gtnavy}{HTML}{00223e}
+\definecolor{gtwhite}{rgb}{1,1,1}
 \definecolor{gtltgray}{rgb}{0.97,0.97,0.97}
+
+\setbeamercolor{structure}{fg=gtgold}
 
 \setbeamercolor{section in toc}{fg=black,bg=white}
 \setbeamercolor{alerted text}{fg=gtgold,bg=gtgold}
-\setbeamercolor*{palette primary}{fg=gtgold,bg=gtnavy}
-\setbeamercolor*{palette secondary}{fg=gtnavy,bg=gtgold}
-\setbeamercolor*{palette tertiary}{fg=black,bg=gtwhite}
-\setbeamercolor*{palette quaternary}{fg=gtnavy,bg=gtgold}
+\setbeamercolor{palette primary}{fg=gtgold,bg=gtnavy}
+\setbeamercolor{palette secondary}{fg=gtnavy,bg=gtgold}
+\setbeamercolor{palette tertiary}{fg=black,bg=gtwhite}
+\setbeamercolor{palette quaternary}{fg=gtnavy,bg=gtgold}
 
-\setbeamercolor*{sidebar}{fg=gtgold,bg=gray}
+\setbeamercolor{sidebar}{fg=gtgold,bg=gray}
 
-\setbeamercolor*{palette sidebar primary}{fg=gtgold}
-\setbeamercolor*{palette sidebar secondary}{fg=gtwhite}
-\setbeamercolor*{palette sidebar tertiary}{fg=gtnavy,bg=gtgold}
-\setbeamercolor*{palette sidebar quaternary}{fg=gtgold,bg=gtnavy}
+\setbeamercolor{palette sidebar primary}{fg=gtgold}
+\setbeamercolor{palette sidebar secondary}{fg=gtwhite}
+\setbeamercolor{palette sidebar tertiary}{fg=gtnavy,bg=gtgold}
+\setbeamercolor{palette sidebar quaternary}{fg=gtgold,bg=gtnavy}
 
 \setbeamercolor{titlelike}{fg=gtnavy,bg=gtgold}
 \setbeamercolor{frametitle}{fg=gtnavy,bg=gtgold}

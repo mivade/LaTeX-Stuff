@@ -3,23 +3,58 @@
 \usecolortheme{buzz}
 
 \mode<presentation> {
-  \usetheme{Warsaw}
+  \usetheme{Frankfurt}
 }
+
+\title{Testing of the Buzz Beamer Color Theme}
+\author{M.V.~DePalatis}
+\institute[GT]{School of Physics, Georgia Institute of Technology}
+
+\pgfdeclareimage[height=0.75cm]{buzz}{images/Buzz}
+\logo{\pgfuseimage{buzz}}
 
 \begin{document}
 
-\frame {
-  \frametitle{Test of the Buzz Color Theme}
+\begin{frame}
+  \titlepage
+\end{frame}
 
-  I'm a Ramblin' Wreck from Georgia Tech, and a hell of an engineer— A
-  helluva, helluva, helluva, helluva, hell of an engineer. Like all
+\section{Overview}
+\label{sec:overview}
+
+\begin{frame}
+  \frametitle{ToC}
+  \tableofcontents
+\end{frame}
+
+\section{Test}
+\label{sec:test}
+
+\begin{frame}
+  \frametitle{Ramblin' Wreck Lyrics}
+
+  I'm a Ramblin' Wreck from Georgia Tech, and a hell of an engineer---
+  A helluva, helluva, helluva, helluva, hell of an engineer. Like all
   the jolly good fellows, I drink my whiskey clear. I'm a Ramblin'
   Wreck from Georgia Tech and a hell of an engineer.
-}
+\end{frame}
 
+\begin{frame}
+  \frametitle{A List}
+  I am a
+  \begin{itemize}
+    \item Helluva
+    \item helluva
+    \item helluva
+    \item helluva
+    \item hell of an
+  \end{itemize}
+engineer.
+\end{frame}
+  
 \end{document}
 
 %%% Local Variables: 
-%%% mode: pdf-tex
+%%% mode: tex-pdf
 %%% TeX-master: t
 %%% End: 
