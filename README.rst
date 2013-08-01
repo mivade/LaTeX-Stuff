@@ -19,10 +19,5 @@ What's here?
 License
 -------
 
-The Buzz logo is a registered trademark of Georgia Tech. See here__
-for further details regarding its use.
-
-__ http://www.licensing.gatech.edu/about/index.html
-
-Otherwise, unless specified within any file, everything is released
+Unless otherwise specified, everything in this repository is released
 under the GNU GPL version 3.
